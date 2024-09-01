@@ -11,14 +11,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/node": "^22.5.1",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@fastify/jwt": "^8.0.1",
     "@prisma/client": "^5.19.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
     "fastify": "^4.28.1",
-    "prisma": "^5.19.0"
+    "fastify-bcrypt": "^1.0.1",
+    "prisma": "^5.19.0",
+    "zod": "^3.23.8"
   }
 }
